@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #373232;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('./beach.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures it covers the whole screen */
+    
+}
+
+/* Signup Container */
+.signup-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading */
+h1 {
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #2C3E50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #1A252F;
+}
+
+/* Link */
+p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+p a {
+    color: #2C3E50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the background image */
+.login-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;  /* Full width */
+    height: 100vh; /* Full height */
+    object-fit: cover; /* Ensures the image covers the whole screen */
+    z-index: -1;
+}
+
+
