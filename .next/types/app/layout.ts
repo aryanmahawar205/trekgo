@@ -1,4 +1,4 @@
-// File: C:\Users\dream\Downloads\trekgo-v0-main (3)\trekgo-v0-main\app\layout.tsx
+// File: /home/kunal/trekgo/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -37,10 +37,17 @@ import {
   User,
 } from "lucide-react"
 
+// Add user interface
+interface UserProfile {
+  displayName: string | null;
+  email: string | null;
+  photoURL: string | null;
+}
+
 export function DashboardSidebar() {
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
-  const [user, setUser] = useState<any>(null)
+  const [user, setUser] = useState<UserProfile | null>(null)
 
   useEffect(() => {
     const currentUser = auth.currentUser
